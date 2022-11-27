@@ -63,7 +63,7 @@ public class ProfileActivity extends AppCompatActivity {
         button77.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent button77 = new Intent(ProfileActivity.this,login.class);
+                Intent button77 = new Intent(ProfileActivity.this,LoginActivity.class);
                 startActivity(button77);
             }
         });
